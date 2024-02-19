@@ -2,17 +2,18 @@
 """
 Defining a function to sum elements of a mixed list of integers and floats
 """
+from typing import List, Union
 
-from typing import List
 
-def sum_list(input_list: List[float]) -> float:
+def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
     """
-    Calculate the sum of a list of floats.
+    Adds the elements of a list containing integers and floats.
 
-    Parameters:
-        input_list (List[float]): The list of floats to sum.
+    Args:
+        mxd_lst (List[Union[int, float]]): The list containing integers and
+        floats.
 
     Returns:
-        float: The sum of the floats in the input list.
+        float: The sum of the list elements as a floating number.
     """
-    return sum(input_list)
+    return sum(mxd_lst)
