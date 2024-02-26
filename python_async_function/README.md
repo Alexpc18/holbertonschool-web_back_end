@@ -1,0 +1,1 @@
+Python async programming, utilizing the asyncio module, enables efficient non-blocking concurrent tasks execution, essential for handling I/O-bound operations. Async functions, declared with async def, leverage await to pause execution until awaited tasks complete, facilitating streamlined asynchronous code authoring and execution.
