@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 This function lists all the documents in a MongoDB collection
 """
@@ -16,4 +17,11 @@ def list_all(mongo_collection):
             A list of dictionaries representing the documents in the collection
     """
 
-    return [document for document in mongo_collection.find()]
+    documents = []
+    cursor = mongo_collection.find()
+
+    for document in cursor:
+        documents.append(document)
+
+    return documents
+
