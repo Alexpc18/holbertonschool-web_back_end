@@ -11,7 +11,7 @@ index_range = __import__('0-simple_helper_function').index_range
 
 def verify_enter_positive(num) -> None:
     """
-    Define a function to verify that a number is a positive intege
+    Define a function to verify that a number is a positive integer
     """
     assert isinstance(num, int) and num > 0, AssertionError
 
