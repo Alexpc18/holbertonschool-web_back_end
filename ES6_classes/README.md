@@ -1,0 +1,1 @@
+ES6 introdujo las clases en JavaScript, proporcionando una sintaxis más clara y concisa para trabajar con objetos y herencia. Las clases permiten definir estructuras y comportamientos de manera similar a otros lenguajes de programación orientados a objetos.
