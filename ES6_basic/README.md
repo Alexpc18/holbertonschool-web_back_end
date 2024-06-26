@@ -1,0 +1,1 @@
+ES6, or ECMAScript 2015, introduced key features like let and const for block-scoped variables, arrow functions for concise syntax, and template literals for easier string interpolation. It also added classes, modules, and promises for better asynchronous programming. These enhancements make JavaScript more powerful and easier to use.
